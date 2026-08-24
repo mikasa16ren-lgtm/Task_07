@@ -40,18 +40,6 @@ The cleaning pipeline uses Python, Pandas, and regex-based string processing:
 6. Save the cleaned dataset.
 7. Print before-and-after examples and validation checks.
 
-## Example
-Sample before-and-after cleaning:
-
-- Before: `law enforcement on high alert following threats against cops and whites on 9-11by #blacklivesmatter...`
-- After: `law enforcement on high alert following threats against cops and whites on by blacklivesmatter...`
-
-## Usage
-From the project root, run:
-
-```bash
-python task_7_text_cleaning/text_cleaning_task.py
-```
 
 ## Conclusion
 The text-cleaning step successfully removes punctuation, digits, and noise while preserving meaningful words and spacing. The cleaned data is standardized and ready for later stages without introducing unnecessary transformations.
